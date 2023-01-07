@@ -2,7 +2,6 @@
 var hello; // se declara la variable global
 console.log(hello); // imprime indefinido porque la variable global solo estaba declarada sin ningun valor
 hello = 'word'; // se inicializa la variable
-
 // 2
 var needle; // se declara la varialble global
 needle= 'haystack'; // se le inicializa con valor
@@ -12,7 +11,6 @@ function test(){
     needle= 'magnet'; // se inicializa con valor
     console.log(needle); // imprime el valor de la variable needle en la llamada de la funcion.
 }
-
 //3.
 var brendan;   // se declaro la variable global
 brendan = 'super cool'; //se declaro con valor
@@ -21,7 +19,6 @@ function print(){ // se declaro la funcion
     console.log(brendan);// no imprime porque no fue invocado a la funcion
 }
 console.log(brendan); // imprime el valor de la variable global
-
 // 4.
 var food; // se declara la variable global
 food = 'chicken'; // se le asigna valor a la variable 
